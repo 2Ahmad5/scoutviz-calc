@@ -1,8 +1,8 @@
-const basePath = './frc_data/galileo_qual_data.csv'
+const basePath = './frc_data/hopper_qual_data.csv'
 // const basePath = './frc_data/all_qual_data.csv'
 
 const year = '2023'
-const events = ['gal']
+const events = ['hop']
 // const events = ['joh', 'cur', 'arc', 'mil', 'new']
 
 let csv = "red_1,red_2,red_3,blue_1,blue_2,blue_3,win\n";

@@ -1,5 +1,3 @@
-import type { JsonObjectExpression } from "typescript"
-
 const basePath = './frc_data/data.csv'
 
 const year = '2023'

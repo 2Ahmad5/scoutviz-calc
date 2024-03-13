@@ -1,3 +1,5 @@
+import type { JsonObjectExpression } from "typescript"
+
 const basePath = './frc_data/data.csv'
 
 const year = '2023'
@@ -15,11 +17,10 @@ for (const event of events){
 
     const re = await fetch(`https://api.statbotics.io/v3/team_events?event=${year + event}&metric=rank&ascending=true&limit=${teamLimit}`);
 
-    const response = await re.json();
+    const response: any = await re.json();
 
     // const path = `${basePath + year + event}.csv`
 
-    //@ts-ignore
     for (const team of response) {
         const teamNm = team.team;
         const a_c_s_p = team.epa.breakdown.auto_charge_station_points.mean;

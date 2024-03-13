@@ -11,9 +11,8 @@ for (const event of events) {
 
     const re = await fetch(`https://api.statbotics.io/v3/matches?event=${year + event}`);
 
-    const response = await re.json();
+    const response:any = await re.json();
     
-    //@ts-ignore
     for (const event of response){
         const red1 = event.alliances.red.team_keys[0];
         const red2 = event.alliances.red.team_keys[1];

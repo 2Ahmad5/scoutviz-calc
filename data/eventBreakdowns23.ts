@@ -1,4 +1,4 @@
-const basePath = './frc_data/data.csv'
+const basePath = './frc_data/2023/data.csv'
 
 const year = '2023'
 // const events = ['utwv', 'okok', 'flor', 'wimi', 'caav', 'tuis2', 'mokc', 'ilpe', 'dal', 'arc', 'mil', 'joh', 'new', 'cur', 'hop']

@@ -1,9 +1,10 @@
 const normalized = false;
 const year = '2024'
-const events = ['oktu', 'mndu2', 'paca', 'utwv', 'tuis', 'brbr', 'mxmo', 'casj', 'caph', 'mose', 'qcmo'];
-const teamLimit = 10
+// const events = ['oktu', 'mndu2', 'paca', 'utwv', 'tuis', 'brbr', 'mxmo', 'casj', 'caph', 'mose', 'qcmo'];
+const events = ['tuis2', 'cave', 'nysu', 'ndgf', 'arli', 'tnkn'];
+const teamLimit = 100
 
-const basePath = `./frc_data/2024/${normalized ? "norm_" : ""}events_2024.csv`
+const basePath = `./frc_data/2024/${normalized ? "norm_" : ""}test_2024.csv`
 
 let csv = "";
 

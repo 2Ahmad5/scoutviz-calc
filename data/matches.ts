@@ -1,11 +1,9 @@
-const basePath = './frc_data/2024_all_qual_data.csv'
-// const basePath = './frc_data/all_qual_data.csv'
+const basePath = './frc_data/2024/all_qual_data.csv'
 
 // const year = '2023'
 const year = '2024'
-// const events = ['hop']
-// const events = ['joh', 'cur', 'arc', 'mil', 'new']
-const events = ['oktu', 'mndu2', 'paca', 'utwv', 'tuis', 'brbr', 'mxmo', 'casj', 'caph', 'mose', 'qcmo']
+// const events = ['oktu', 'mndu2', 'paca', 'utwv', 'tuis', 'brbr', 'mxmo', 'casj', 'caph', 'mose', 'qcmo']
+const events = ['tuis2', 'cave', 'nysu', 'ndgf', 'arli', 'tnkn'];
 
 
 let csv = "red_1,red_2,red_3,blue_1,blue_2,blue_3,win\n";

@@ -1,4 +1,4 @@
-const normalized = false;
+const normalized = true;
 const year = '2024'
 // const events = ['oktu', 'mndu2', 'paca', 'utwv', 'tuis', 'brbr', 'mxmo', 'casj', 'caph', 'mose', 'qcmo'];
 const events = ['tuis2', 'cave', 'nysu', 'ndgf', 'arli', 'tnkn'];

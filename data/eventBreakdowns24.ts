@@ -59,7 +59,7 @@ for (const event of events) {
             const eg_trap_pts = team.epa.breakdown.endgame_trap_points.mean;
             const rank = team.record.qual.rank;
 
-            csv += `${team_name},${aut_leave},${aut_note_pts},${spk_mplif_tele_pts},${spk_unmpl_tele_pts},${amp_pts}, ${eg_p_points},${eg_trap_pts},${rank}\n`
+            csv += `${team_name},${aut_leave},${aut_note_pts},${spk_mplif_tele_pts},${spk_unmpl_tele_pts},${amp_pts},${eg_p_points},${eg_trap_pts},${rank}\n`
         }
     }
 }
